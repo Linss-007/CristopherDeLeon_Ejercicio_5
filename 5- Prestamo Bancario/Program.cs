@@ -1,1 +1,26 @@
-﻿
+﻿int solicitante;
+double ingresos;
+int meses;
+double montoPrestamo;
+int historial;
+string fiador;
+Console.WriteLine("Ingrese el tipo de solicitante");
+Console.WriteLine("1. Empleado fijo");
+Console.WriteLine("2. Temporal");
+Console.WriteLine("3. Independiente");
+Console.WriteLine("4. Estudiante");
+solicitante = int.Parse(Console.ReadLine());
+Console.WriteLine("Ingrese sus Ingresos mensuales");
+ingresos = double.Parse(Console.ReadLine());
+Console.WriteLine("Ingrese su antiguedad laboral en meses");
+meses  = int.Parse(Console.ReadLine());
+Console.WriteLine("Ingrese el monto solicitado");
+montoPrestamo = double.Parse(Console.ReadLine());
+Console.WriteLine("Ingrese su historial crediticio");
+Console.WriteLine("1. Excelente");
+Console.WriteLine("2. Bueno");
+Console.WriteLine("3. Regular");
+Console.WriteLine("4. Malo");
+historial = int.Parse(Console.ReadLine());
+Console.WriteLine("¿Tiene fiador? S/N");
+fiador = Console.ReadLine();
